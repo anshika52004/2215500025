@@ -1,0 +1,84 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+nav ul li{
+  margin: 0 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: #007BFF;
+}
+nav ul li a.active{
+  color: #007BFF;
+  text-decoration: underline;
+}
+nav ul li a.active:hover{
+  color: #0056b3;
+  text-decoration: none;
+}
+nav div button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+nav div button:hover{
+  background-color: #0056b3;
+}
+nav div button:focus{
+  outline: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 72px;
+}
+
+nav ul li a {
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #007BFF;
+}
+
+nav div button {
+  background-color: #007BFF;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+nav div button:hover {
+  background-color: #0056b3;
+}
+
+nav div button:active {
+  background-color: #004085;
+}
+
