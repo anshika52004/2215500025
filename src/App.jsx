@@ -19,6 +19,10 @@ const App = () => {
                         <li><Link to="/users">Top Users</Link></li>
                         <li><Link to="/posts">Posts</Link></li>
                     </ul>
+                    <div>
+                      <button>Login</button>
+                      <button>SignUp</button>
+                    </div>
                 </nav>
                 <Routes>
                     <Route path="/" element={<h1>Welcome to Socially</h1>} />
